@@ -4,7 +4,8 @@
     "islanding": {
       "type": "identifier",
       "selector": "a",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "Assigned to Me"
     }
   },
   "connect": []

@@ -18,6 +18,12 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 10
+          },
+          "category": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 6
           }
         }
       }

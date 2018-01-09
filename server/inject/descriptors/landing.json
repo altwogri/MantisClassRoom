@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "islanding": {
+      "type": "identifier",
+      "selector": "meta",
+      "control": "exists",
+      "selectContains": "my_view_page"
+    }
+  },
+  "connect": []
+}

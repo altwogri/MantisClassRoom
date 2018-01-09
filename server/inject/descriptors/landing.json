@@ -3,7 +3,7 @@
   "properties": {
     "islanding": {
       "type": "identifier",
-      "selector": "div",
+      "selector": "td",
       "control": "exists",
       "selectContains": "Assigned to Me",
       "frameSelector": [

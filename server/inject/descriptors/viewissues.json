@@ -2,19 +2,22 @@
   "type": "object",
   "properties": {
     "issuelist": {
-      "type": "object",
-      "selector": "#buglist tr[bgcolor]",
-      "properties": {
-        "id": {
-          "type": "string",
-          "selector": "td",
-          "control": "property.innerText",
-          "selectIndex": 3
-        },
-        "summary": {
-          "type": "string",
-          "selector": "body",
-          "control": "property.innerText"
+      "type": "array",
+      "selectorAll": "#buglist tr[bgcolor]",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 3
+          },
+          "summary": {
+            "type": "string",
+            "selector": "body",
+            "control": "property.innerText"
+          }
         }
       }
     }

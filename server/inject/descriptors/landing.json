@@ -4,7 +4,7 @@
     "islanding": {
       "type": "identifier",
       "selector": "a",
-      "control": "action.link",
+      "control": "exists",
       "selectContains": "Assigned to Me",
       "frameSelector": [
         null

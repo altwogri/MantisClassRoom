@@ -3,9 +3,9 @@
   "properties": {
     "islanding": {
       "type": "identifier",
-      "selector": ".form-title",
-      "control": "exists",
-      "selectContains": "Assigned to Me"
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": []

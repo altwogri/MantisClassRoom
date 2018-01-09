@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "issuelist": {
+      "type": "object",
+      "selector": "#buglist tr[bgcolor=\"##c2dfff\"]",
+      "properties": {
+        "id": {
+          "type": "string",
+          "selector": "body",
+          "control": "property.innerText"
+        },
+        "summary": {
+          "type": "string",
+          "selector": "body",
+          "control": "property.innerText"
+        }
+      }
+    }
+  },
+  "connect": []
+}

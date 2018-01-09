@@ -3,7 +3,7 @@
   "properties": {
     "islanding": {
       "type": "identifier",
-      "selector": "tbody",
+      "selector": ".subtle",
       "control": "exists",
       "selectContains": "Assigned to Me",
       "frameSelector": [

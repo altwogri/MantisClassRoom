@@ -1,15 +1,5 @@
 {
   "type": "object",
-  "properties": {
-    "islanding": {
-      "type": "identifier",
-      "selector": "a",
-      "control": "exists",
-      "selectContains": "Assigned to Me",
-      "frameSelector": [
-        null
-      ]
-    }
-  },
+  "properties": {},
   "connect": []
 }

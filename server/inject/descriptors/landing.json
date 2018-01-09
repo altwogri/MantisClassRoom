@@ -3,9 +3,9 @@
   "properties": {
     "islanding": {
       "type": "identifier",
-      "selector": "meta",
+      "selector": ".form-title",
       "control": "exists",
-      "selectContains": "my_view_page"
+      "selectContains": "Assigned to Me"
     }
   },
   "connect": []

@@ -5,7 +5,7 @@
       "type": "identifier",
       "selector": "a",
       "control": "exists",
-      "selectContains": "\"Assigned to Me\"",
+      "selectContains": "Assigned to Me",
       "frameSelector": [
         null
       ]

@@ -21,6 +21,12 @@
       "type": "action",
       "selector": ".button",
       "control": "action.button"
+    },
+    "errormessage": {
+      "type": "string",
+      "selector": "font",
+      "control": "property.innerText",
+      "selectContains": "Admin directory should be removed"
     }
   },
   "connect": [

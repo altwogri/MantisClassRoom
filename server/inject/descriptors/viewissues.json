@@ -3,7 +3,7 @@
   "properties": {
     "issuelist": {
       "type": "object",
-      "selector": "#buglist tr[bgcolor=\"#c2dfff\"]",
+      "selector": "#buglist tr[bgcolor]",
       "properties": {
         "id": {
           "type": "string",

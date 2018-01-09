@@ -5,7 +5,10 @@
       "type": "identifier",
       "selector": "a",
       "control": "action.link",
-      "selectContains": "Assigned to Me (Unresolved)"
+      "selectContains": "Assigned to Me",
+      "frameSelector": [
+        null
+      ]
     }
   },
   "connect": []

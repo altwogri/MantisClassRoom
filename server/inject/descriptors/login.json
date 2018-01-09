@@ -8,7 +8,7 @@
     },
     "username": {
       "type": "string",
-      "selector": "body",
+      "selector": "[name=\"username\"]",
       "control": "property.innerText"
     }
   },

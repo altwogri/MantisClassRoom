@@ -5,7 +5,7 @@
       "type": "identifier",
       "control": "exists",
       "selector": ".form-title",
-      "selectContains": "Logon"
+      "selectContains": "Login"
     },
     "username": {
       "type": "string",

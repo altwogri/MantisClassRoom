@@ -3,8 +3,8 @@
   "properties": {
     "islanding": {
       "type": "identifier",
-      "selector": "td",
-      "control": "exists",
+      "selector": "a",
+      "control": "action.link",
       "selectContains": "Assigned to Me",
       "frameSelector": [
         null
